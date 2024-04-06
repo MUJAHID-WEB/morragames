@@ -500,6 +500,35 @@
   background-size: cover;
   border-radius: 0px;
 }
+ /* the slides */
+
+
+.sliderItem img {
+  width: 100%;
+  height: auto;
+} 
+
+.slick-slide.slick-center {
+  transform: scale(1) !important;
+  margin: 0 27px;
+}
+
+.slick-slide {
+  transform: scale(0.85) !important;
+}
+
+/* the parent */
+.slick-list {
+  padding: 0px 251px;
+}
+
+@media (max-width: 768px) {
+  .slick-slide.slick-center {
+    transform: scale(1) !important;
+    margin: 0 12px !important;
+  }
+}
+
 
 .gameSlider .swiper {
   padding: 20px 0px !important;
