@@ -22,10 +22,10 @@ import "../App.css";
 function GameSlider2() {
   var settings = {
     centerMode: true,
-    centerPadding: "0",
+    centerPadding: "380px",
   //  touchThreshold: 5,
     dots: true,
-    slidesToShow: 5,
+    slidesToShow: 3,
     draggable: true,
     infinite: true,
     speed: 800,
@@ -37,7 +37,7 @@ function GameSlider2() {
         settings: {
           arrows: false,
           centerMode: true,
-          centerPadding: "150px",
+          centerPadding: "40px",
           slidesToShow: 3,
         },
       },

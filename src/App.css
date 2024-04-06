@@ -500,34 +500,14 @@
   background-size: cover;
   border-radius: 0px;
 }
- /* the slides */
+ /* the slick slider */
 
-
-.sliderItem img {
+ .sliderItem img {
   width: 100%;
   height: auto;
+  width: 370px;
 } 
 
-.slick-slide.slick-center {
-  transform: scale(1) !important;
-  margin: 0 27px;
-}
-
-.slick-slide {
-  transform: scale(0.85) !important;
-}
-
-/* the parent */
-.slick-list {
-  padding: 0px 251px;
-}
-
-@media (max-width: 768px) {
-  .slick-slide.slick-center {
-    transform: scale(1) !important;
-    margin: 0 12px !important;
-  }
-}
 
 
 .gameSlider .swiper {
@@ -1991,18 +1971,24 @@ left: 0;
   transition: all 0.4s ease-in-out;
 }
 
- .slick-slide{
-  transform: scale(0.77);
+.slick-slide{
+  transform: scaleY(0.77);
+  margin: 0 6px;
  }
 
  .slick-slide.slick-active{
-  transform: scale(0.85);
+  transform: scaleY(0.85);
  }
 
 
  .slick-slide.slick-center{
-  transform: scale(1);
+  transform: scaleY(1);
+
  }  
+
+ .slick-list{
+  padding: 0 12px;
+ }
 
 
 /* 
