@@ -502,11 +502,6 @@
 }
  /* the slick slider */
 
- .sliderItem img {
-  width: 100%;
-  height: auto;
-  width: 370px;
-} 
 
 
 
@@ -1972,24 +1967,37 @@ left: 0;
 }
 
 .slick-slide{
-  transform: scaleY(0.77);
+  transform: scaleY(1.25);
   margin: 0 6px;
  }
 
  .slick-slide.slick-active{
-  transform: scaleY(0.85);
+  transform: scaleY(1.37);
  }
 
 
  .slick-slide.slick-center{
-  transform: scaleY(1);
+  transform: scaleY(1.5);
 
  }  
+
+ .slick-dots{
+  bottom: -80px !important;
+ }
 
  .slick-list{
   padding: 0 12px;
  }
 
+ .sliderItem img {
+  width: 100%;
+  height: 700px;
+  width: 370px;
+} 
+
+ .gameSlider .container{
+  height: 850px !important;
+ }
 
 /* 
  .slick-center {
