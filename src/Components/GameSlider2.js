@@ -22,7 +22,7 @@ import "../App.css";
 function GameSlider2() {
   var settings = {
     centerMode: true,
-    centerPadding: "380px",
+    centerPadding: "460px",
   //  touchThreshold: 5,
     dots: true,
     slidesToShow: 3,
@@ -33,11 +33,65 @@ function GameSlider2() {
     // autoplay : true,
     responsive: [
       {
+        breakpoint: 1920,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: "460px",
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 1536,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: "320px",
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 1440,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: "300px",
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 1360,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: "280px",
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 1280,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: "260px",
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: "210px",
+          slidesToShow: 3,
+        },
+      },
+      {
         breakpoint: 768,
         settings: {
           arrows: false,
           centerMode: true,
-          centerPadding: "40px",
+          centerPadding: "150px",
           slidesToShow: 3,
         },
       },
@@ -46,8 +100,8 @@ function GameSlider2() {
         settings: {
           arrows: false,
           centerMode: true,
-          centerPadding: "40px",
-          slidesToShow: 1,
+          centerPadding: "20px",
+          slidesToShow: 3,
         },
       },
     ],
